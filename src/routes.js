@@ -18,7 +18,7 @@ const routes = [
     },
     {
         method: 'PUT',
-        path: '/note/{id}',
+        path: '/notes/{id}',
         handler: editNoteByIdHandler
     },
     {
